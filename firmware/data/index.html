@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-a"></div>
+    <div class="bg-shape bg-shape-b"></div>
+
+    <main class="layout">
+      <header class="hero">
+        <p class="eyebrow">EDGE NODE</p>
+        <h1>Smart Home Control Plane</h1>
+        <p class="subtitle">Low-latency relay automation with live environmental telemetry.</p>
+      </header>
+
+      <section class="panel grid relays" aria-labelledby="relays-title">
+        <h2 id="relays-title">Relays</h2>
+        <div id="relayGrid" class="relay-grid"></div>
+      </section>
+
+      <section class="panel sensors" aria-labelledby="sensors-title">
+        <h2 id="sensors-title">Sensors</h2>
+        <div class="sensor-list">
+          <article class="sensor-card">
+            <p class="sensor-title">Temperature</p>
+            <p id="temperatureValue" class="sensor-value">--.- C</p>
+          </article>
+          <article class="sensor-card">
+            <p class="sensor-title">Motion</p>
+            <p id="motionValue" class="sensor-value">Unknown</p>
+          </article>
+          <article class="sensor-card">
+            <p class="sensor-title">Last Sample</p>
+            <p id="sampleTimeValue" class="sensor-value">--</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

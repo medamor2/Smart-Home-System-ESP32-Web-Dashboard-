@@ -1,2 +1,9 @@
-# Smart-Home-System-ESP32-Web-Dashboard-
- A modular and scalable ESP32-based smart home controller with asynchronous networking, persistent state, and a built-in web dashboard.
+# Smart Home System
+
+Repository layout:
+- `firmware/`: ESP32 PlatformIO firmware project (`src/`, `data/`, `platformio.ini`)
+- `docs/`: Documentation (`docs/README.md`)
+- `images/`: Diagrams and screenshots
+
+Start here:
+- Full project documentation: `docs/README.md`
